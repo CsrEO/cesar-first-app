@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+body {
+  background-color: #DFE0F3;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.circle-button {
+  height: 65px;
+  width: 65px;
+  border-radius: 100%;
+  background: #AD2FB1;
+  border: 5px solid #000000;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.todo-list,
+.header {
+  background-color: #3EBEB7;
+  border-radius: 25px;
+  
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+.header {
+  width: 100%;
+  justify-content: space-evenly;
+
+}
+
+
+.task-1 {
+  background-color: #DE8487;
+  border-radius: 15px;
+}
+
+.task-1 input {
+  background-color: #F0FA83;
+}
+
+.task-1 {
+  display: flex;
+  width: 100%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.App-link {
-  color: #61dafb;
+.task-2 {
+  background-color: #2FDE75;
+  border-radius: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.task-2 input{
+   background-color: #0B62F0;
+   
+}
+
+.task-2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.task-3 {
+  background-color: #2FDE75;
+  border-radius: 15px;
+}
+
+.task-3 input{
+  background-color: #AD2FB1;
+  
+}
+
+.task-3 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer,
+.footer {
+  background-color: #3EBEB7;
+  border-radius: 20px;
+  text-align: center;
+  word-spacing: 100px;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.create1 input{
+  background-color:#F0FA83;
+  
+}
+
+
+
+.create2 input{
+  background-color:#0B62F0;
+}
+
+.create3 input{
+  background-color: #AD2FB1;
+  
+  
+}
+
+
+.createAll {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
 }
